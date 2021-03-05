@@ -1,0 +1,1135 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page-width {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.restrict-y {
+    overflow-y: hidden;
+}
+
+#green {
+    color: #0BE04F !important;
+}
+
+.section-left, .section-right {
+    width: 50%;
+}
+
+.section-heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #212121;
+}
+
+.section-subheading p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #757575;
+}
+
+
+/* Social icons */
+
+.viber {
+    background: url(assets/viber.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.viber:hover {
+    background: url(assets/viber_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.whatsapp {
+    background: url(assets/whatsapp.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.whatsapp:hover {
+    background: url(assets/whatsapp_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.telegram {
+    background: url(assets/telegram.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.telegram:hover {
+    background: url(assets/telegram_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.instagram {
+    background: url(assets/insta.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.instagram:hover {
+    background: url(assets/insta_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.facebook {
+    background: url(assets/fb.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.facebook:hover {
+    background: url(assets/fb_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.link-no-decoration {
+    text-decoration: none;
+}
+
+/* Desctop styles */
+
+#banner, #in_numbers, #about_us, #advantages, #about_vacancy, #requirements, #contact_form {
+    display: block;
+}
+#banner_mobile, #in_numbers_mobile, #about_us_mobile, #advantages_mobile, #about_vacancy_mobile, #requirements_mobile, #contact_form_mobile  {
+    display: none;
+}
+
+/* First section (banner) */
+
+.banner-wrapper {
+    background: url(assets/bg.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
+    max-height: 900px;
+}
+
+.header {
+    display: flex;
+    padding-top: 80px;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    padding-top: 15px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu-items {
+    width: 100%;
+}
+
+.menu-item {
+    margin: 0px 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #0BE04F;
+    transition: all .3s ease;
+}
+
+.header-social-icons {
+    display: flex;
+    padding-top: 15px;
+}
+
+.social-network-item {
+    margin: 0 12.5px;
+}
+
+.banner-text {
+    margin-top: 200px;
+    padding-left: 80px;
+}
+
+.banner-content {
+    max-width: 470px;
+}
+
+.banner-content h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.banner-content p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.button-secondary {
+    background: transparent;
+    border: 1px solid #0BE04F;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 175%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0BE04F;
+    padding: 17px 68px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-secondary:hover {
+    border: 2px solid #0BE04F;
+    padding: 16px 67px;
+}
+
+.button-secondary:active {
+        background: #28F469;
+        color: #FFFFFF;
+        transition: all .3s ease;
+}
+
+/* In numbers section */
+
+#in_numbers {
+    background: #F2F2F2;
+}
+
+.in-numbers {
+    background: #F2F2F2;
+    max-height: 263px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers-content {
+    display: flex;
+    margin: 100px 0px;
+    border-right: solid 2px gray;
+}
+
+#without_border {
+    border-right: none;
+}
+
+.big-number {
+    margin-right: 20px;
+}
+
+.big-number h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #0BE04F;
+}
+
+.numbers-content-text {
+    padding-right: 40px;
+}
+
+.numbers-content-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 125%;
+    color: #212121;
+}
+
+/* About us section */
+
+.about-us {
+    padding-top: 180px;
+    display: flex;
+}
+
+.about-us p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #757575;
+}
+
+.about-us-left_text {
+    width: 90%;
+    max-width: 447px;
+    margin-top: 60px;
+}
+
+.about-us_heading {
+    display: flex;
+    max-width: 470px;
+}
+
+.about-us_heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #212121;
+}
+
+.about-us_subheading {
+    width: 90%;
+    max-width: 470px;
+    margin: 60px 0;
+}
+
+.about-us-left-img {
+    width: 90%;
+}
+
+.about-us-right-img {
+    margin-bottom: 180px;
+    width: 90%;
+}
+
+/* advantages section */
+
+#advantages{
+    background: #f2f2f2;
+}
+
+.advantages-heading {
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+}
+
+.advantages-heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #212121;
+}
+
+.advantages-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advatages-item {
+    max-width: 270px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.advatages-item_number h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #0BE04F;
+    margin-bottom: 10px;
+}
+
+.advatages-item_heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.advatages-item_content p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #757575;
+}
+
+/* about vacancy */
+
+.about-vacancy {
+    display: flex;
+    padding-top: 180px;
+}
+
+.about-vacancy_heading {
+    display: flex;
+    max-width: 470px;
+}
+
+.about-vacancy_heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.about-vacancy_subheading {
+    max-width: 470px;
+    margin: 60px 0;
+    padding-right: 25px;
+}
+
+.about-vacancy-img {
+    width: 90%;
+}
+
+/* requirements section */
+
+.requirements-section {
+    padding-top: 180px;
+}
+
+.requirements_heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.requirements-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.requirement {
+    max-width: 310px;
+}
+
+.requirement_heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.requirement_content p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #757575;
+}
+
+.margin-end-of-page {
+    margin-bottom: 180px;
+}
+
+/* contact section */
+
+.contact-form {
+    display: flex;
+}
+
+.form {
+    background: #F2F2F2;
+}
+
+.form-wrapper {
+    max-width: 470px;
+    float: right;
+    padding-right: 14%;
+}
+
+.form-heading {
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.form-heading h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #212121;
+}
+
+.form-subheading {
+    margin-bottom: 30px;
+}
+
+.form-subheading p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #757575;
+}
+
+.form-inputs {
+    display: flex;
+}
+
+.text-input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #CCC;
+
+    margin-top: 25px;
+    padding-bottom: 17px;
+    outline: none;
+}
+
+.check {
+    position: relative;
+    top: 25px;
+    right: 45px;
+    float: right;
+}
+
+input:invalid + .check {
+    display: none;
+}
+
+input:valid + .check {
+    display: block;
+    transition: all .5s ease;
+}
+
+.text-input:focus {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #212121;
+
+    margin-top: 25px;
+    padding-bottom: 17px;
+    outline: none;
+}
+
+.submit-btn {
+    width: fit-content;
+    border: none !important;
+    background: #0BE04F;
+    padding: 17px 69px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 175%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #0CCF4A;
+    transition: all .3s ease;
+}
+
+.submit-btn:active {
+    background: #28F469;
+    transition: all .3s ease;
+}
+
+.form-pic {
+    background: url(assets/form-img.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* footer section */
+#footer_section {
+    background: #212121;
+}
+
+.footer {
+    background: #212121;
+    display: flex;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer-item-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-item-wrapper p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 175%;
+    color: #FFFFFF;
+
+    margin-left: 15px;
+}
+
+.footer-item-wrapper:hover p {
+    color: #0BE04F;
+    transition: all .3s ease;
+}
+
+.footer-item-wrapper:hover img {
+    color: #0BE04F;
+    transition: all .3s ease;
+}
+
+.social-icon-footer {
+    margin-right: 25px;
+    width: 100%;
+}
+
+.footer-contact-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-contact-link:hover {
+    color: #0BE04F;
+    transition: all .3s ease;
+}
+
+@media screen and (max-width: 1190px) {
+    .big-number h1 {
+        font-size: 34px;
+    }
+    
+    .numbers-content-text p {
+        font-size: 18px;
+    }
+    .advatages-item {
+        max-width: 240px;
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+    .advantages-heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 125%;
+        color: #212121;
+    }
+    .form-wrapper {
+        max-width: 470px;
+        float: right;
+        padding-right: 0;
+    }
+    .advatages-item_number h1 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #banner, #in_numbers, #advantages, #requirements, #contact_form {
+        display: none;
+    }
+    #banner_mobile, #in_numbers_mobile, #advantages_mobile, #requirements_mobile, #contact_form_mobile {
+        display: block;
+    }
+
+    #about-us-full, #about-vac-full {
+        display: block;
+    }
+
+    #about-us-mob, #about-vac-mob {
+        display: none;
+    }
+
+    .mobile-fit {
+        padding: 0 5%;
+    }
+
+    /* banner mobile */
+    .banner-wrapper-mobile {
+        background: url(assets/bg.jpg) no-repeat;
+        background-size: cover;
+        max-height: 720px;
+        overflow-y: hidden;
+    }
+
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    
+    .mobile-menu-btn {
+        background: url(assets/mobile-menu.png) no-repeat;
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-close-btn {
+        background: url(assets/close-menu.png) no-repeat !important;
+        width: 30px;
+        height: 30px;
+        transition: all .5s ease;
+    }
+
+    .banner-content {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    /* mobile menu */
+
+    .show-menu {
+        height: 95% !important;
+        transition: all .5s ease;
+    }
+    
+    .mobile-menu {
+        position: absolute;
+        height: 0%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(8px);
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-items {
+        background: #212121;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-items a {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .mobile-menu-items a:active, a:hover {
+        color: #ffffff60;
+    }
+    .mobile-menu-items li {
+        border-bottom: 1px solid #ffffff2d;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* in numbers mobile */
+
+    .in-numbers-mobile {
+        background: #F2F2F2;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .in-numbers-mobile-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .in-numbers-mobile-item-heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        color: #0BE04F;
+    }
+
+    .in-numbers-mobile-item-content p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 27px;
+        color: #212121;
+    }
+
+    .in-numbers-mobile-item {
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    /* about us mobile */
+    .adv-text {
+        display: block;
+    }
+    .adv-text-sm {
+        display: none;
+    }
+    
+    .about-us-mobile-heading-wrapper {
+        padding-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .about-us_heading {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .about-us_heading h1 {
+        font-size: 34px;
+    }
+
+    .about-us-mobile img {
+        width: 100%;
+    }
+
+    .about-us-mobile p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 175%;
+        color: #757575;
+    }
+    
+    .about-us-mobile-img2 {
+        margin-top: 40px;
+    }
+
+    .mgbt80 {
+        margin-bottom: 80px;
+    }
+
+    /* advantages mobile */
+    .advantages-mobile {
+        background: #F2F2F2;
+    }
+
+    .advantages-heading {
+        display: block;
+        padding-top: 80px;
+        margin-bottom: 60px;
+        justify-content: center;
+    }
+
+    .advantages-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .advatages-item {
+        max-width: 240px;
+        margin-top: 0;
+        margin-bottom: 40px; 
+    }
+
+    /* about vacancy mobile */
+
+    .about-vacancy_heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 150%;
+        color: #212121;
+    }
+
+    /* requairements mobile */
+    .requirements-section_mobile {
+        padding-top: 80px;
+    }
+
+    .requirements_heading {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 0;
+    }
+
+    .requirements_heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 125%;
+        color: #212121;
+    }
+
+    .requirements-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .requirement {
+        max-width: 310px;
+        padding-right: 25px;
+        width: 100%;
+    }
+    /* contact form mobile */
+
+    .contact-form-mobile {
+        background: #F2F2F2;
+    }
+
+    .contact-form-mobile-heading {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .contact-form-mobile-heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        color: #212121;
+    }
+    .form-img-mobile {
+        background: url(assets/form-img.jpg) center center no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    .contact-form-mobile p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 175%;
+        color: #757575;
+    }
+    .form-fit {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .submit-btn {
+        padding: 17px 0;
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .footer {
+        justify-content: center;
+    }
+    .footer-wrapper {
+        display: block;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .width-fit {
+        width: fit-content;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .rq-text {
+        display: block !important;
+    }
+
+    .requirements_heading h1 {
+        font-size: 34px;
+    }
+    .requirement_heading h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #about_us, #about_vacancy {
+        display: none;
+    }
+    #about_us_mobile, #about_vacancy_mobile {
+        display: block;
+    }
+
+    #about-us-full, #about-vac-full {
+        display: none;
+    }
+    #about-us-mob, #about-vac-mob {
+        display: block;
+    }
+
+    .banner-content h1 {
+        font-size: 34px;
+        line-height: 120%;
+        overflow: hidden;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    .button-secondary {
+        padding: 17px 0;
+        width: 100%;
+    }
+    .in-numbers-mobile-item {
+        width: 50%;
+        padding-left: 0%;
+    }
+    .about-us_heading {
+        max-width: 100%;
+        justify-content: left;
+    }
+    .advantages-wrapper {
+        display: block;
+    }
+    .advatages-item {
+        max-width: 100%;
+    }
+    .advantages-heading h1 {
+        font-size: 34px;
+    }
+    .advatages-item_number h1 {
+        font-size: 34px;
+    }
+    .advatages-item_heading h1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 150%;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+    /* about vacancy mobile */
+    .about-vacancy-mobile-heading-wrapper {
+        padding-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .about-vacancy_heading {
+        max-width: 100%;
+        justify-content: left;
+    }
+    .about-vacancy_heading h1 {
+        font-size: 34px;
+    }
+
+    .about-vacancy-mobile img {
+        width: 100%;
+    }
+
+    .about-vacancy-mobile p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 175%;
+        color: #757575;
+    }
+    
+    .about-vacancy-mobile-img2 {
+        margin-top: 40px;
+    }
+
+    .rq-text {
+        margin-bottom: 40px;
+    }
+
+    .requirements-list {
+        display: block;
+        justify-content: space-around;
+        margin-top: 0;
+    }
+    .requirement {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .margin-end-of-page {
+        margin-bottom: 80px;
+    }
+    /* form mobile */
+    .form-fit {
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    .footer-wrapper {
+        display: block;
+        justify-content: space-between;
+        margin-top: 100px;
+        width: 90%;
+    }
+    .link-no-decoration {
+        text-decoration: none;
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .adv-text {
+        display: none;
+    }
+    .adv-text-sm {
+        display: block;
+    }
+}

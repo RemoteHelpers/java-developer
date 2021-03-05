@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg {
+    background: #212121;
+}
+
+.page-width {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* Social icons */
+
+.viber {
+    background: url(assets/viber.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.viber:hover {
+    background: url(assets/viber_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.whatsapp {
+    background: url(assets/whatsapp.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.whatsapp:hover {
+    background: url(assets/whatsapp_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.telegram {
+    background: url(assets/telegram.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.telegram:hover {
+    background: url(assets/telegram_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.instagram {
+    background: url(assets/insta.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.instagram:hover {
+    background: url(assets/insta_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.facebook {
+    background: url(assets/fb.svg) center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.facebook:hover {
+    background: url(assets/fb_hover.svg) center no-repeat;
+    transition: all .3s ease;
+}
+
+.link-no-decoration {
+    text-decoration: none;
+}
+
+#banner {
+    display: block;
+}
+#banner_mobile {
+    display: none;
+}
+
+.restrict-y {
+    overflow-y: hidden;
+}
+
+.banner-wrapper {
+    background: url(assets/bg_thankyou_page.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vw;
+    max-height: 900px;
+}
+
+.header {
+    display: flex;
+    padding-top: 80px;
+    width: 95%;
+    justify-content: space-between;
+}
+ 
+.menu ul {
+    display: flex;
+    padding-top: 15px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu-items {
+    width: 100%;
+}
+
+.menu-item {
+    margin: 0px 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #0BE04F;
+    transition: all .3s ease;
+}
+
+.header-social-icons {
+    display: flex;
+    padding-top: 15px;
+}
+
+.social-network-item {
+    margin: 0 12.5px;
+}
+
+.banner-text {
+    margin-top: 200px;
+    padding-left: 80px;
+}
+
+.banner-content {
+    max-width: 470px;
+}
+
+.banner-content h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.banner-content p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.button-secondary {
+    background: transparent;
+    border: 1px solid #0BE04F;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 175%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0BE04F;
+    padding: 17px 68px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-secondary:hover {
+    border: 2px solid #0BE04F;
+    padding: 16px 67px;
+}
+
+.button-secondary:active {
+        background: #28F469;
+        color: #FFFFFF;
+        transition: all .3s ease;
+}
+/* footer section */
+#footer_section {
+    background: #212121;
+}
+
+.footer {
+    background: #212121;
+    display: flex;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer-item-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-item-wrapper p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 175%;
+    color: #FFFFFF;
+
+    margin-left: 15px;
+}
+
+.social-icon-footer {
+    margin-right: 25px;
+    width: 100%;
+}
+
+.footer-contact-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 175%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+    #banner  {
+        display: none;
+    }
+    #banner_mobile {
+        display: block;
+    }
+    .mobile-fit {
+        padding: 0 5%;
+    }
+    /* banner mobile */
+    .banner-wrapper-mobile {
+        background: url(assets/bg_thankyou_page.jpg) no-repeat;
+        background-size: cover;
+        max-height: 720px;
+        height: 720px;
+        overflow-y: hidden;
+    }
+
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    
+    .mobile-menu-btn {
+        background: url(assets/mobile-menu.png) no-repeat;
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-close-btn {
+        background: url(assets/close-menu.png) no-repeat !important;
+        width: 30px;
+        height: 30px;
+        transition: all .5s ease;
+    }
+
+    .banner-content {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    /* mobile menu */
+
+    .show-menu {
+        height: 95% !important;
+        transition: all .5s ease;
+    }
+    
+    .mobile-menu {
+        position: absolute;
+        height: 0%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(8px);
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-items {
+        background: #212121;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-items a {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .mobile-menu-items a:active, a:hover {
+        color: #ffffff60;
+    }
+    .mobile-menu-items li {
+        border-bottom: 1px solid #ffffff2d;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .footer {
+        justify-content: center;
+    }
+    .footer-wrapper {
+        display: block;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .width-fit {
+        width: fit-content;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner-content h1 {
+        font-size: 34px;
+        line-height: 120%;
+        overflow: hidden;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    .button-secondary {
+        padding: 17px 0;
+        width: 100%;
+    }
+    .footer-wrapper {
+        display: block;
+        justify-content: space-between;
+        margin-top: 100px;
+        width: 90%;
+    }
+    .link-no-decoration {
+        text-decoration: none;
+        max-width: 240px;
+    }
+}

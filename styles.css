@@ -6,6 +6,7 @@
 
 .page-width {
     max-width: 1200px;
+    /* width: 100%; */
     width: auto;
     margin: auto;
     padding-left: 2%;
@@ -14,6 +15,17 @@
 
 .restrict-y {
     overflow-y: hidden;
+}
+
+.scaled {
+    transform: scale(1.1);
+    transition: all .5s ease;
+    overflow-y: hidden !important;
+}
+
+.higher {
+    transform: scale(0.95);
+    transition: all .3s ease;
 }
 
 #green {
@@ -133,6 +145,8 @@
 .menu ul {
     display: flex;
     padding-top: 15px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
 }
 
 .menu li {
@@ -242,12 +256,15 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+    overflow-y: hidden;
 }
 
 .numbers-content {
     display: flex;
     margin: 100px 0px;
     border-right: solid 2px gray;
+    transition: all .5s ease;
+    cursor: default;
 }
 
 #without_border {
@@ -361,6 +378,7 @@
     max-width: 270px;
     margin-top: 60px;
     margin-bottom: 120px;
+    transition: all .3s ease;
 }
 
 .advatages-item_number h1 {
@@ -443,6 +461,8 @@
 
 .requirement {
     max-width: 310px;
+    transition: all .3s ease;
+    cursor: default;
 }
 
 .requirement_heading h1 {
@@ -878,6 +898,10 @@ input:valid + .check {
         justify-content: center;
     }
 
+    /* .advantages-heading h1 {
+        font-size: 34px;
+    } */
+
     .advantages-wrapper {
         display: flex;
         justify-content: space-around;
@@ -1014,9 +1038,11 @@ input:valid + .check {
     #about-us-full, #about-vac-full {
         display: none;
     }
+
     #about-us-mob, #about-vac-mob {
         display: block;
-    }
+    } 
+
 
     .banner-content h1 {
         font-size: 34px;

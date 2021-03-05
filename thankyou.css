@@ -10,6 +10,7 @@
 
 .page-width {
     max-width: 1200px;
+    /* width: 100%; */
     width: auto;
     margin: auto;
     padding-left: 2%;
@@ -105,6 +106,8 @@
 .menu ul {
     display: flex;
     padding-top: 15px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
 }
 
 .menu li {
